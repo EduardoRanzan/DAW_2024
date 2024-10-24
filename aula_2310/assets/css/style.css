@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;    
+    font-weight: 100 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    .container{
+        display: flex;
+    }
+    
+    .brand{
+        width: 100%;
+        height: 54px;
+        display: flex;
+        
+        img{
+            width: 50px;
+            margin-right: 20px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin: auto;
+            color: #01528A;
+        }
+    }
+
+    .navegation {
+        width: 100%;
+        height: 54px;      
+        
+        ul {
+            display: flex;
+            list-style-type: none;
+            color: black;
+            font-weight: 600;
+            font-size: 16px;
+            justify-content: space-between;
+        }
+        
+        li{
+            font-weight: 300px;
+            line-height: 2rem;
+        }
+        
+        a{
+            line-height: 2em;
+            color: black;
+            padding: 10px;
+        }
+        
+        
+        a:hover{
+            color: #0889D4;
+            border-bottom: 2px solid #0889D4;
+        }
+
+        .isalive{
+            color: #0889D4;
+            border-bottom: 2px solid #0889D4;
+        }
+        
+        button{
+            margin-top: 5px;
+            border-radius: 5px;
+            padding-right: 5px;
+            border: 0px solid #0889D4;
+            width: 107px;
+            height: 46px;
+            background-color: #0889D4;
+            color: white;
+        }
+        
+    }
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    a {
+        text-decoration: none;
+        display: flex;
+    }
+}
+
+#banner {
+    margin-top: 10px;
+    height: 550px;
+    width: 100%;
+    color: #01528A;
+    border-radius: 0.625rem;
+    background-image: url('../img/background-house.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+    .banner-content{
+        width: 650px;
+        height: 100%;
+        background: linear-gradient(270deg,rgba(255,255,255,0), #ffffff 50%);
+    }
+
+    #banner h3{
+            
+    }
+}
