@@ -220,3 +220,157 @@ section>h2 {
         
     }
 }
+
+#specialists {
+    .specialists-content {
+        width: 100%;
+        display: flex;
+        .specialist {
+            margin: auto;
+            width: 25%;
+            border: 1px #dcdceb solid ;
+            border-radius: 1rem;
+            padding: 1.5rem;
+
+            h4 {
+                color: #01528A;
+                font-size: 2.5rem;
+                font-weight: 100!important;
+            }
+
+            .cidade {
+                color: #01528A;
+                font-weight: 100 !important;
+                padding-top: 0.5rem;
+                padding-bottom: 1rem;
+            }
+            
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}
+
+#values {
+    .values-content{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .values-text{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.5rem;
+        gap: 1rem;
+    }
+
+    .values-text {
+        font-size: 1.1rem;
+        text-align: justify;
+        font-weight: 300;
+    }
+
+    .detail {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding: 1.5rem;
+
+        .value {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            p{
+                padding-left: 1.5rem;
+                background-image: url('../img/bullet-values.svg');
+                background-repeat: no-repeat;
+                background-position-y: center;
+                font-weight: 1000 !important;
+            }
+        }
+    }
+}
+
+footer {
+    color: #ffffff;
+    width: 100%;
+    margin-top: 10rem;
+    padding: 3rem 0;
+    background-color: #01528A;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        .footer-company {
+            width: 450px;
+        }
+
+        .footer-brand {
+            background-image: url("../img/logo_imobiliaria_branca.svg");
+            background-repeat: no-repeat;
+            background-position-y: center;
+            background-size: 2rem;
+            padding-left: 2.5rem;
+            line-height: 1.5rem;
+            font-weight: 300 !important;
+            font-size: 2rem !important;
+            margin-bottom: 1rem;
+        }
+        .footer-company p{
+            font-size: 1rem;
+            text-align: justify;
+        }
+    }
+
+    .footer-menu {
+        font-size: 1rem;
+        font-weight: 300 !important;
+    }
+
+    .footer-menu-title {
+        font-weight: 400 !important;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-top: 1rem;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    a:hover{
+        transition: 1s;
+        color: #8F90A6;
+        text-decoration: underline;
+    }
+
+    .footer-social {
+        display: flex;
+
+        .facebook {
+            background-image: url('../img/icon-facebook.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 1rem;
+        }
+        .instagram {
+            background-image: url('../img/icon-instagram.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 1rem;
+        }
+        .twitter {
+            background-image: url('../img/icon-twitter.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 1rem;
+        }
+    }
+}
