@@ -353,6 +353,7 @@ footer {
 
     .footer-social {
         display: flex;
+        justify-content: center;
 
         .facebook {
             background-image: url('../img/icon-facebook.svg');
@@ -372,5 +373,9 @@ footer {
             background-position: center;
             padding: 1rem;
         }
+    }
+
+    .footer-copyright {
+        text-align: center;
     }
 }
